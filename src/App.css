@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  padding: 30px 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container{
+  max-width: 1280px;
+  margin:0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.heading{
+  margin:0;
+  padding:20px 0;
+  border-bottom: 1px solid #00000057;
+}
+
+.number_box{
+  width:75px;
+  height: 75px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.number_box span{
+  z-index: 1;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom:8px;
+  -webkit-text-stroke: 1.5px black;
+}
+
+.number_box .number_img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.numbers_container{
+  margin-top:50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #00000012;
+}
+
+.buttons_container{
+  margin-top:50px;
+}
+
+.button{
+  padding: 15px 30px;
+  margin: 10px 10px;
+  font-weight: bold;
+  border:0;
+  border-radius:7px;
+  font-size: 15px;
+  box-shadow: inset 6px -5px 3px 4px rgb(0 0 0 / 10%);
+}
+
+.button:hover{
+  transform: scale(103%);
+}
+
+.button:hover{
+  cursor: pointer;
+}
+
+.button.orange{
+  background-color:rgb(238, 155, 2);
+}
+
+.button.green{
+  background-color: rgb(24, 218, 24);
+}
