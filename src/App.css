@@ -1,3 +1,11 @@
+body{
+  margin: 0;
+  color:#ffffff;
+  min-height: 100vh;
+  background: radial-gradient(50% 98.88% at 50% 50%, #206ecd 0%, #1f406a 100%);
+  position: relative;
+}
+
 .App {
   text-align: center;
   padding: 30px 0;
